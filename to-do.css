@@ -1,0 +1,29 @@
+.toggle-btn {
+  width: 50px;
+  height: 28px;
+  background-color: #6366f1;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle-circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.toggle-dark {
+  background-color: #374151;
+}
+
+.toggle-dark .toggle-circle {
+  transform: translateX(22px);
+}
